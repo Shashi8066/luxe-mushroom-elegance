@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 const BrandStory: React.FC = () => {
   return (
-    <section className="luxe-section bg-luxe-green text-luxe-white py-24 md:py-32">
-      <div className="luxe-container">
+    <section className="py-24 md:py-32 bg-luxe-green text-luxe-white">
+      <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="order-2 lg:order-1">
             <span className="text-xs tracking-widest uppercase text-luxe-gold mb-2 block">
               Our Philosophy
             </span>
-            <h2 className="luxe-heading text-3xl md:text-4xl lg:text-5xl mb-6">
+            <h2 className="font-light text-3xl md:text-4xl lg:text-5xl mb-6">
               A Commitment to Exceptional Quality
             </h2>
             <div className="space-y-6 text-luxe-white/80">
@@ -26,7 +26,7 @@ const BrandStory: React.FC = () => {
               </p>
             </div>
             <div className="mt-8">
-              <Link to="/process" className="luxe-button bg-luxe-white text-luxe-green hover:bg-luxe-white/90">
+              <Link to="/process" className="inline-block px-6 py-3 bg-luxe-white text-luxe-green font-light hover:bg-luxe-white/90 transition-colors duration-300">
                 Discover Our Process
               </Link>
             </div>
