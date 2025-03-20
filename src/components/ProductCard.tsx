@@ -10,6 +10,7 @@ interface ProductCardProps {
   price: number;
   imageSrc: string;
   className?: string;
+  style?: React.CSSProperties;
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({
@@ -19,6 +20,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   price,
   imageSrc,
   className,
+  style,
 }) => {
   return (
     <Link 
@@ -27,6 +29,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         "group block overflow-hidden animate-fade-in",
         className
       )}
+      style={style}
     >
       <div className="product-image aspect-square mb-4 overflow-hidden transition-all duration-700">
         <div 
