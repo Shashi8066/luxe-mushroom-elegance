@@ -35,7 +35,7 @@ const BrandStory: React.FC = () => {
           <div className="order-1 lg:order-2 relative">
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl transform lg:translate-x-12">
               <img 
-                src="https://images.unsplash.com/photo-1558435186-dafcc31be638?q=80&w=1887&auto=format&fit=crop" 
+                src="https://www.mycohaus.com/cdn/shop/articles/pexels-mark-stebnicki-2478421.jpg?v=1684786052" 
                 alt="Mushroom cultivation" 
                 className="w-full h-full object-cover"
               />

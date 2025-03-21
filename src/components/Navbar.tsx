@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center text-2xl font-light">
-            <span className="animate-fade-in">LUXE MUSHROOM</span>
+            <span className="animate-fade-in">TRUFFAIRE</span>
           </Link>
 
           {/* Desktop Navigation */}

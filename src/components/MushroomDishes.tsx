@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 
@@ -13,26 +12,26 @@ const mushroomDishes: DishVideo[] = [
   {
     id: '1',
     title: 'Mushroom Risotto',
-    videoSrc: 'https://static.videezy.com/system/resources/previews/000/044/489/original/MM13_01.mp4',
-    thumbnailSrc: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?q=80&w=600&auto=format&fit=crop',
+    videoSrc: 'https://v1.pinimg.com/videos/mc/hls/0b/bc/57/0bbc57120d1b9270117b03e25c23e920.m3u8',
+    thumbnailSrc: 'https://i.pinimg.com/736x/77/4d/88/774d88f4295676295b483c4c2bc6562c.jpg',
   },
   {
     id: '2',
-    title: 'Shiitake Stir Fry',
-    videoSrc: 'https://static.videezy.com/system/resources/previews/000/044/485/original/MM12_7.mp4',
-    thumbnailSrc: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?q=80&w=600&auto=format&fit=crop',
+    title: 'Creamy Garlic Butter Tuscan',
+    videoSrc: 'https://v1.pinimg.com/videos/mc/hls/0b/bc/57/0bbc57120d1b9270117b03e25c23e920.m3u8',
+    thumbnailSrc: 'https://i.pinimg.com/736x/31/5c/76/315c7652c9e8bd5130676d8a025b87e6.jpg',
   },
   {
     id: '3',
-    title: 'Portobello Burger',
-    videoSrc: 'https://static.videezy.com/system/resources/previews/000/044/463/original/MM12_3.mp4',
-    thumbnailSrc: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?q=80&w=600&auto=format&fit=crop',
+    title: 'Sauteed Mushrooms with Spinach',
+    videoSrc: 'https://v1.pinimg.com/videos/mc/hls/0b/bc/57/0bbc57120d1b9270117b03e25c23e920.m3u8',
+    thumbnailSrc: 'https://i.pinimg.com/736x/81/59/26/8159268a32830f57422fe7ba3aed3e1f.jpg',
   },
   {
     id: '4',
-    title: 'Truffle Pasta',
-    videoSrc: 'https://static.videezy.com/system/resources/previews/000/044/394/original/MM9_1.mp4',
-    thumbnailSrc: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?q=80&w=600&auto=format&fit=crop',
+    title: 'Bok Choy and Mushroom Stir Fry',
+    videoSrc: 'https://v1.pinimg.com/videos/mc/hls/0b/bc/57/0bbc57120d1b9270117b03e25c23e920.m3u8',
+    thumbnailSrc: 'https://i.pinimg.com/736x/46/40/1b/46401b1150d871c6878668df4c2f8321.jpg',
   }
 ];
 

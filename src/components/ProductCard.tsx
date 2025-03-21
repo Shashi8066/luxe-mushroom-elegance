@@ -46,7 +46,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           {name}
         </h3>
         <div className="font-light">
-          ${price.toFixed(2)}
+        ₹{price.toFixed(2)}
         </div>
       </div>
     </Link>

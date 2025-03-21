@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
         <div 
           className="absolute inset-0 w-full h-full bg-cover bg-center transform scale-105 animate-scale-in opacity-70"
           style={{ 
-            backgroundImage: 'url(https://images.unsplash.com/photo-1611267254323-4db7b39c732c?q=80&w=2070&auto=format&fit=crop)',
+            backgroundImage: 'url(/src/components/logo.jpg)',
             backgroundPosition: 'center 30%'
           }}
         />
@@ -23,10 +23,10 @@ const Hero: React.FC = () => {
           <span className="inline-block text-xs tracking-widest uppercase text-luxe-gold mb-4 sm:mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '400ms', animationFillMode: 'forwards' }}>
             Premium Cultivated Mushrooms
           </span>
-          <h1 className="luxe-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-luxe-white mb-4 sm:mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '600ms', animationFillMode: 'forwards' }}>
+          <h1 className="luxe-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-luxe-black-bold mb-4 sm:mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '600ms', animationFillMode: 'forwards' }}>
             Nature's Excellence,<br />Cultivated to Perfection
           </h1>
-          <p className="text-luxe-white/80 text-lg md:text-xl max-w-xl mb-8 md:mb-10 opacity-0 animate-fade-in-up" style={{ animationDelay: '800ms', animationFillMode: 'forwards' }}>
+          <p className="text-luxe-white/800 text-lg md:text-xl max-w-xl mb-8 md:mb-10 opacity-0 animate-fade-in-up" style={{ animationDelay: '800ms', animationFillMode: 'forwards' }}>
             Experience our premium organic mushrooms, grown with meticulous care for exceptional taste and potency.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-up" style={{ animationDelay: '1000ms', animationFillMode: 'forwards' }}>
