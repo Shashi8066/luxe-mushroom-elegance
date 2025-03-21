@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import FeaturedProducts from '@/components/FeaturedProducts';
 import BrandStory from '@/components/BrandStory';
+import MushroomDishes from '@/components/MushroomDishes';
 import CertificationBanner from '@/components/CertificationBanner';
 import Newsletter from '@/components/Newsletter';
 import Footer from '@/components/Footer';
@@ -16,6 +17,7 @@ const Index = () => {
         <Hero />
         <FeaturedProducts />
         <BrandStory />
+        <MushroomDishes />
         <CertificationBanner />
         <Newsletter />
       </main>
