@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
         <div 
           className="absolute inset-0 w-full h-full bg-cover bg-center transform scale-105 animate-scale-in opacity-70"
           style={{ 
-            backgroundImage: 'url(/src/components/logo.jpg)',
+            backgroundImage: 'url(https://demo-wp-fd5f74.ingress-comporellon.ewp.live/wp-content/uploads/2025/03/logo.jpg)',
             backgroundPosition: 'center 30%'
           }}
         />
